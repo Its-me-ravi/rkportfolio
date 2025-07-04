@@ -1,10 +1,10 @@
 const info = {
     // ============ MAIN DETAILS ============
     main: {
-        name: "Daniel Shan Balico",
-        description: "I am a software engineer with expertise in full-stack web development. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards.",
-        role: "Full-Stack Developer",
-        photo: "../photo.webp",
+        name: "Ravi Kumar Choudhary",
+        description: "I am a software and cloud engineer with expertise in Cloud Computing, Linux, and DevOps practices. I have hands-on experience in designing and managing scalable, secure, and highly available cloud infrastructures using AWS and Azure. I enjoy automating workflows, optimizing system performance, and solving complex infrastructure challenges. I am passionate about implementing CI/CD pipelines, managing infrastructure as code, and adhering to industry best practices for secure and efficient deployments.",
+        role: "Cloud & DevOps Engineer",
+        photo: "../ravi.png",
         email: "danielshan.balico@gmail.com",
     },
 
