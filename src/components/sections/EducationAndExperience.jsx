@@ -5,7 +5,11 @@ import { FcGoogle } from "react-icons/fc";
 import { PiCertificateFill } from "react-icons/pi";
 import { SiHackerrank } from "react-icons/si";
 //import { SiIbmcloud } from 'react-icons/si'; // ✅ Or any other working icon
-import { SiMicrosoft } from 'react-icons/si';
+//import { SiMicrosoft } from 'react-icons/si';
+// CORRECT
+import { FaMicrosoft } from 'react-icons/fa'; 
+
+
 
 
 
@@ -76,7 +80,7 @@ function EducationAndExperience() {
                 return (
                   <div className="hs-carousel-slide relative" key={index}>
                     {cert.icon === "ibm" ? (
-                      <SiMicrosoft className="text-blue-500 absolute right-5 top-0 text-5xl" />
+                      <FaMicrosoft  className="text-blue-500 absolute right-5 top-0 text-5xl" />
                     ) : cert.icon === "google" ? (
                       <FcGoogle className="text-blue-500 absolute right-5 top-3 text-3xl" />
                     ) : (
